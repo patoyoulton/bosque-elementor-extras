@@ -1,0 +1,98 @@
+/**
+ * Estilos para Bosque Elementor Breadcrumb
+ *
+ * Incluye estilos tanto para el frontend como para la previsualización en el editor de Elementor
+ */
+
+/* Contenedor principal */
+.bosque-breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+/* Elementos individuales */
+.bosque-breadcrumb-item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Enlaces */
+.bosque-breadcrumb-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.bosque-breadcrumb-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Elemento actual (último) */
+.bosque-breadcrumb-current {
+    color: #000;
+    font-weight: 600;
+}
+
+/* Estilos para la previsualización en el editor de Elementor */
+.bosque-breadcrumb-container {
+    padding: 10px 0;
+}
+
+.bosque-breadcrumb-editor-note {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e7f3ff;
+    border-left: 3px solid #2271b1;
+    color: #333;
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 3px;
+}
+
+.bosque-breadcrumb-editor-placeholder {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    color: #666;
+    border-radius: 3px;
+}
+
+/* Separador */
+.bosque-breadcrumb-separator {
+    margin: 0 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 767px) {
+    .bosque-breadcrumb {
+        font-size: 12px;
+    }
+    
+    .bosque-breadcrumb-separator {
+        margin: 0 5px;
+        font-size: 12px;
+    }
+}
+
+/* Placeholder para el editor de Elementor */
+.bosque-breadcrumb-editor-placeholder {
+    background-color: #f5f5f5;
+    border: 1px dashed #ccc;
+    padding: 15px;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    border-radius: 4px;
+}
