@@ -122,7 +122,7 @@ git clone https://github.com/patoyoulton/bosque-elementor-extras.git
 
 ## 👥 Acerca de Bosquestudio
 
-[Bosquestudio](https://bosquestudio.cl) es una agencia de diseño y desarrollo digital en Chile especializada en crear soluciones web a medida, e-commerce y marketing digital. Nos dedicamos a construir sitios y soluciones digitales que no solo cumplen, sino que superan los objetivos de negocio de nuestros clientes.
+[Bosquestudio](https://bosquestudio.cl) es un colectivo freelance de diseño y desarrollo digital en Chile especializada en crear soluciones web a medida, e-commerce y marketing digital. Nos dedicamos a construir sitios y soluciones digitales que no solo cumplen, sino que superan los objetivos de negocio de nuestros clientes.
 
 ## 📄 Licencia
 
